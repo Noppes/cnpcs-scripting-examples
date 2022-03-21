@@ -104,5 +104,4 @@ This is required for VSCode to know what we are programming. It tells VSCode stu
 ---
 
 ## Join the Discord!
-Join the discord to discuss scriptings or to share your creations!
-
+[Join the discord](https://discord.gg/AJ7qPy4) to discuss scriptings or to share your creations!
