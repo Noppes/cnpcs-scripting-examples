@@ -1,27 +1,31 @@
 # CNPC Scripting Setup & Examples
-
+---
 Official repo to get started with CustomNPC Scripting in Visual Studio Code.
 
 It contains several example scripts as well as Intellisense(autocompletion) for CustomNPCs.
 
 ### Table of contents
-1. Requirements for scripting
-   - Install Visual Studio Code
-   - Choose a scripting language (JavaScript, Python)
-   - Download this repo
-2. Getting started
-   - Your first script
-   - Example scripts
-3. The good stuff
-   - Snippets
-   - Intellisense
-4. Join the Discord!
+1. [Requirements for scripting](#requirements-for-scripting)
+   - [Install Visual Studio Code](#install-visual-studio-code)
+   - [Choose a scripting language (JavaScript, Python)](#choose-a-scripting-language)
+   - [Download this repo](#download-this-repo)
+2. [Getting started](#getting-started)
+   - [Your first script](#your-first-script)
+   - [Example scripts](#example-scripts)
+   - [Handy links](#handy-links)
+3. [The good stuff](#the-good-stuff)
+   - [Snippets](#snippets)
+   - [Intellisense (autocomplete)](#intellisense-autocomplete)
+4. [FAQ](#faq)
+   - [Intellisense/autocomplete is not working anymore](#intellisenseautocomplete-is-not-working-anymore)
+   - [What is all the `@param` stuff?](#what-is-all-the-param-stuff)
+5. [Join the Discord!](#join-the-discord)
 
-
+---
 ## Requirements for scripting
 
 ###### Install Visual Studio Code
-Visual Studio Code is one of many editors to use in scripting/programming. We use it for its ability to make us really efficient.
+Visual Studio Code is one of many editors to use in scripting/programming. We use it for its ability to make scripting really easy.
 
 Make sure to download VSCode from its [official website](https://code.visualstudio.com/download).
 
@@ -36,6 +40,11 @@ If you are running CustomNPCs on a server, then only the server needs `nashorn.j
 
 ###### Download this repo
 Download this repository and open it up in VSCode to get started!
+Create some directories. Organize the example files how you want it.
+
+Do NOT remove `jsconfig.json` and `.vscode` or you'll lose your autocompletion feature.
+
+---
 
 ## Getting started
 
@@ -47,6 +56,7 @@ Decide what type of script you want to make. You can choose from:
  - Player Script (Scripts that are executed by every player)
 
 
+TODO: add explanation on in-game steps to run scripts
 
 ###### Example scripts
 This repo contains some example scripts provided by people from the discord server. Some comments might be added/changed inside example scripts, but are kept as original as possible.
@@ -59,6 +69,36 @@ This list is sorted by simplest above.
  - `lockable_door.js` by `AnnikenYT`
  - `transporters_fee.js` by `Xelerax`
 
+TODO: add more examples
 
- **Why does the script contain all the `@param` stuff above every `function`?**
+
+###### Handy links
+
+TODO: Add handy links, docs, etc
+
+---
+
+## The good stuff
+This repo contains some extra handy files to enhance your scripting experience.
+###### Snippets
+
+TODO: Add explanation on snippets, what to type, etc
+
+###### Intellisense (autocomplete)
+
+TODO: Add explanation on autocomplete, how it works, etc
+
+---
+## FAQ
+
+###### Intellisense/autocomplete is not working anymore 
+Make sure your `jsconfig.json` and `.vscode` still exists within the root of your opened VSCode.
+
+###### What is all the @param stuff?
 This is required for VSCode to know what we are programming. It tells VSCode stuff about the code.
+
+---
+
+## Join the Discord!
+Join the discord to discuss scriptings or to share your creations!
+
