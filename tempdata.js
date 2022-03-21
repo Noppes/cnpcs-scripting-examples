@@ -1,20 +1,23 @@
 //tempdata example by Daot
-//npc data
+
+/**
+ * @param {NpcEvent.InitEvent} event
+ */
 function init(event) {
+    // npc data
     event.npc.getTempdata().put("abc", [1, 2, 3, 4]);
-
-}
-function interact(event) {
-    event.npc.say(event.npc.getTempdata().get("abc"));
-
-}
-
-/// or world data 
-function init(event) {
+    
+    // or world data 
     event.npc.world.getTempdata().put("abc", [1, 2, 3, 4]);
-
 }
-function interact(event) {
-    event.npc.say(event.npc.world.getTempdata().get("abc"));
 
+/**
+ * @param {NpcEvent.InteractEvent} event
+ */
+function interact(event) {
+    // npc data
+    event.npc.say(event.npc.getTempdata().get("abc"));
+    
+    // or world data 
+    event.npc.say(event.npc.world.getTempdata().get("abc"));
 }

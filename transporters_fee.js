@@ -2,6 +2,9 @@
 
 //// Get the location of that transporter's teleport location ////
 
+/**
+ * @param {NpcEvent.InitEvent} event
+ */
 function init(event) {
     var locname1 = event.npc.role.location.getName();
     event.npc.world.getStoreddata().put("locname1", locname1)
@@ -9,6 +12,9 @@ function init(event) {
 
 //// Function using the transporter role ////
 
+/**
+ * @param {DialogEvent.CloseEvent} event
+ */
 function dialogClose(event) {
     var dest = event.dialog.getId();
     if (dest === "DIALOG ID") { //// "DIALOG ID" is the id of the dialog with the name of the location
@@ -23,3 +29,4 @@ function dialogClose(event) {
     }
     ////When you will add another transporter location, add another row of "if(dest===..." here
 }
+
