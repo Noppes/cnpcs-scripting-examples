@@ -1,0 +1,288 @@
+{
+    "PlayerEvent.InitEvent": {
+        "prefix": "init",
+        "body": [
+        "/**",
+        " * @param {PlayerEvent.InitEvent} event",
+        " */",
+        "function init(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "PlayerEvent.InitEvent",
+        "scope": "javascript,typescript"
+    },
+    "PlayerEvent.UpdateEvent": {
+        "prefix": "tick",
+        "body": [
+        "/**",
+        " * @param {PlayerEvent.UpdateEvent} event",
+        " */",
+        "function tick(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "PlayerEvent.UpdateEvent",
+        "scope": "javascript,typescript"
+    },
+    "PlayerEvent.InteractEvent": {
+        "prefix": "interact",
+        "body": [
+        "/**",
+        " * @param {PlayerEvent.InteractEvent} event",
+        " */",
+        "function interact(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "PlayerEvent.InteractEvent",
+        "scope": "javascript,typescript"
+    },
+    "PlayerEvent.AttackEvent": {
+        "prefix": "attack",
+        "body": [
+        "/**",
+        " * @param {PlayerEvent.AttackEvent} event",
+        " */",
+        "function attack(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "PlayerEvent.AttackEvent",
+        "scope": "javascript,typescript"
+    },
+    "PlayerEvent.BreakEvent": {
+        "prefix": "broken",
+        "body": [
+        "/**",
+        " * @param {PlayerEvent.BreakEvent} event",
+        " */",
+        "function broken(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "PlayerEvent.BreakEvent",
+        "scope": "javascript,typescript"
+    },
+    "PlayerEvent.TossEvent": {
+        "prefix": "toss",
+        "body": [
+        "/**",
+        " * @param {PlayerEvent.TossEvent} event",
+        " */",
+        "function toss(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "PlayerEvent.TossEvent",
+        "scope": "javascript,typescript"
+    },
+    "PlayerEvent.PickUpEvent": {
+        "prefix": "pickedUp",
+        "body": [
+        "/**",
+        " * @param {PlayerEvent.PickUpEvent} event",
+        " */",
+        "function pickedUp(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "PlayerEvent.PickUpEvent",
+        "scope": "javascript,typescript"
+    },
+    "PlayerEvent.ContainerOpen": {
+        "prefix": "containerOpen",
+        "body": [
+        "/**",
+        " * @param {PlayerEvent.ContainerOpen} event",
+        " */",
+        "function containerOpen(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "PlayerEvent.ContainerOpen",
+        "scope": "javascript,typescript"
+    },
+    "PlayerEvent.ContainerClosed": {
+        "prefix": "containerClosed",
+        "body": [
+        "/**",
+        " * @param {PlayerEvent.ContainerClosed} event",
+        " */",
+        "function containerClosed(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "PlayerEvent.ContainerClosed",
+        "scope": "javascript,typescript"
+    },
+    "PlayerEvent.DamagedEntityEvent": {
+        "prefix": "containerClosed",
+        "body": [
+        "/**",
+        " * @param {PlayerEvent.DamagedEntityEvent} event",
+        " */",
+        "function containerClosed(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "PlayerEvent.DamagedEntityEvent",
+        "scope": "javascript,typescript"
+    },
+    "PlayerEvent.RangedLaunchedEvent": {
+        "prefix": "rangedLaunched",
+        "body": [
+        "/**",
+        " * @param {PlayerEvent.RangedLaunchedEvent} event",
+        " */",
+        "function rangedLaunched(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "PlayerEvent.RangedLaunchedEvent",
+        "scope": "javascript,typescript"
+    },
+    "PlayerEvent.DiedEvent": {
+        "prefix": "died",
+        "body": [
+        "/**",
+        " * @param {PlayerEvent.DiedEvent} event",
+        " */",
+        "function died(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "PlayerEvent.DiedEvent",
+        "scope": "javascript,typescript"
+    },
+    "PlayerEvent.KilledEntityEvent": {
+        "prefix": "kill",
+        "body": [
+        "/**",
+        " * @param {PlayerEvent.KilledEntityEvent} event",
+        " */",
+        "function kill(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "PlayerEvent.KilledEntityEvent",
+        "scope": "javascript,typescript"
+    },
+    "PlayerEvent.DamagedEvent": {
+        "prefix": "damaged",
+        "body": [
+        "/**",
+        " * @param {PlayerEvent.DamagedEvent} event",
+        " */",
+        "function damaged(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "PlayerEvent.DamagedEvent",
+        "scope": "javascript,typescript"
+    },
+    "PlayerEvent.TimerEvent": {
+        "prefix": "timer",
+        "body": [
+        "/**",
+        " * @param {PlayerEvent.TimerEvent} event",
+        " */",
+        "function timer(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "PlayerEvent.TimerEvent",
+        "scope": "javascript,typescript"
+    },
+    "PlayerEvent.LoginEvent": {
+        "prefix": "login",
+        "body": [
+        "/**",
+        " * @param {PlayerEvent.LoginEvent} event",
+        " */",
+        "function login(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "PlayerEvent.LoginEvent",
+        "scope": "javascript,typescript"
+    },
+    "PlayerEvent.LogoutEvent": {
+        "prefix": "logout",
+        "body": [
+        "/**",
+        " * @param {PlayerEvent.LogoutEvent} event",
+        " */",
+        "function logout(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "PlayerEvent.LogoutEvent",
+        "scope": "javascript,typescript"
+    },
+    "PlayerEvent.LevelUpEvent": {
+        "prefix": "levelUp",
+        "body": [
+        "/**",
+        " * @param {PlayerEvent.LevelUpEvent} event",
+        " */",
+        "function levelUp(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "PlayerEvent.LevelUpEvent",
+        "scope": "javascript,typescript"
+    },
+    "PlayerEvent.KeyPressedEvent": {
+        "prefix": "keyPressed",
+        "body": [
+        "/**",
+        " * @param {PlayerEvent.KeyPressedEvent} event",
+        " */",
+        "function keyPressed(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "PlayerEvent.KeyPressedEvent",
+        "scope": "javascript,typescript"
+    },
+    "PlayerEvent.ChatEvent": {
+        "prefix": "chat",
+        "body": [
+        "/**",
+        " * @param {PlayerEvent.ChatEvent} event",
+        " */",
+        "function chat(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "PlayerEvent.ChatEvent",
+        "scope": "javascript,typescript"
+    },
+    "PlayerEvent.FactionUpdateEvent": {
+        "prefix": "factionUpdate",
+        "body": [
+        "/**",
+        " * @param {PlayerEvent.FactionUpdateEvent} event",
+        " */",
+        "function factionUpdate(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "PlayerEvent.FactionUpdateEvent",
+        "scope": "javascript,typescript"
+    },
+    "WorldEvent.ScriptCommandEvent": {
+        "prefix": "scriptCommand",
+        "body": [
+        "/**",
+        " * @param {WorldEvent.ScriptCommandEvent} event",
+        " */",
+        "function scriptCommand(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "WorldEvent.ScriptCommandEvent",
+        "scope": "javascript,typescript"
+    }
+}

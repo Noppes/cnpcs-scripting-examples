@@ -1,0 +1,184 @@
+{
+    "BlockEvent.InitEvent": {
+        "prefix": "init",
+        "body": [
+        "/**",
+        " * @param {BlockEvent.InitEvent} event",
+        " */",
+        "function init(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "BlockEvent.InitEvent",
+        "scope": "javascript,typescript"
+    },
+    "BlockEvent.EntityFallenUponEvent": {
+        "prefix": "fallenUpon",
+        "body": [
+        "/**",
+        " * @param {BlockEvent.EntityFallenUponEvent} event",
+        " */",
+        "function fallenUpon(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "BlockEvent.EntityFallenUponEvent",
+        "scope": "javascript,typescript"
+    },
+    "BlockEvent.InteractEvent": {
+        "prefix": "interact",
+        "body": [
+        "/**",
+        " * @param {BlockEvent.InteractEvent} event",
+        " */",
+        "function interact(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "BlockEvent.InteractEvent",
+        "scope": "javascript,typescript"
+    },
+    "BlockEvent.RedstoneEvent": {
+        "prefix": "redstone",
+        "body": [
+        "/**",
+        " * @param {BlockEvent.RedstoneEvent} event",
+        " */",
+        "function redstone(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "BlockEvent.RedstoneEvent",
+        "scope": "javascript,typescript"
+    },
+    "BlockEvent.DoorToggleEvent": {
+        "prefix": "doorToggle",
+        "body": [
+        "/**",
+        " * @param {BlockEvent.DoorToggleEvent} event",
+        " */",
+        "function doorToggle(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "BlockEvent.DoorToggleEvent",
+        "scope": "javascript,typescript"
+    },
+    "BlockEvent.BreakEvent": {
+        "prefix": "broken",
+        "body": [
+        "/**",
+        " * @param {BlockEvent.BreakEvent} event",
+        " */",
+        "function broken(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "BlockEvent.BreakEvent",
+        "scope": "javascript,typescript"
+    },
+    "BlockEvent.ExplodedEvent": {
+        "prefix": "exploded",
+        "body": [
+        "/**",
+        " * @param {BlockEvent.ExplodedEvent} event",
+        " */",
+        "function exploded(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "BlockEvent.ExplodedEvent",
+        "scope": "javascript,typescript"
+    },
+    "BlockEvent.RainFillEvent": {
+        "prefix": "rainFilled",
+        "body": [
+        "/**",
+        " * @param {BlockEvent.RainFillEvent} event",
+        " */",
+        "function rainFilled(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "BlockEvent.RainFillEvent",
+        "scope": "javascript,typescript"
+    },
+    "BlockEvent.NeighborChangedEvent": {
+        "prefix": "neighborChanged",
+        "body": [
+        "/**",
+        " * @param {BlockEvent.NeighborChangedEvent} event",
+        " */",
+        "function neighborChanged(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "BlockEvent.NeighborChangedEvent",
+        "scope": "javascript,typescript"
+    },
+    "BlockEvent.UpdateEvent": {
+        "prefix": "tick",
+        "body": [
+        "/**",
+        " * @param {BlockEvent.UpdateEvent} event",
+        " */",
+        "function tick(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "BlockEvent.UpdateEvent",
+        "scope": "javascript,typescript"
+    },
+    "BlockEvent.ClickedEvent": {
+        "prefix": "clicked",
+        "body": [
+        "/**",
+        " * @param {BlockEvent.ClickedEvent} event",
+        " */",
+        "function clicked(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "BlockEvent.ClickedEvent",
+        "scope": "javascript,typescript"
+    },
+    "BlockEvent.HarvestedEvent": {
+        "prefix": "harvested",
+        "body": [
+        "/**",
+        " * @param {BlockEvent.HarvestedEvent} event",
+        " */",
+        "function harvested(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "BlockEvent.HarvestedEvent",
+        "scope": "javascript,typescript"
+    },
+    "BlockEvent.CollidedEvent": {
+        "prefix": "collide",
+        "body": [
+        "/**",
+        " * @param {BlockEvent.CollidedEvent} event",
+        " */",
+        "function collide(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "BlockEvent.CollidedEvent",
+        "scope": "javascript,typescript"
+    },
+    "BlockEvent.TimerEvent": {
+        "prefix": "timer",
+        "body": [
+        "/**",
+        " * @param {BlockEvent.TimerEvent} event",
+        " */",
+        "function timer(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "BlockEvent.TimerEvent",
+        "scope": "javascript,typescript"
+    }
+}

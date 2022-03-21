@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "strict": true,
+      "strictPropertyInitialization": false,
+      "checkJs": true,
+      "resolveJsonModule": true,
+      "experimentalDecorators": true,
+    }
+  }

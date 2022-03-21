@@ -1,0 +1,67 @@
+{
+    "CustomGuiEvent.CloseEvent": {
+        "prefix": "customGuiClosed",
+        "body": [
+        "/**",
+        " * @param {CustomGuiEvent.CloseEvent} event",
+        " */",
+        "function customGuiClosed(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "CustomGuiEvent.CloseEvent",
+        "scope": "javascript,typescript"
+    },
+    "CustomGuiEvent.ButtonEvent": {
+        "prefix": "customGuiButton",
+        "body": [
+        "/**",
+        " * @param {CustomGuiEvent.ButtonEvent} event",
+        " */",
+        "function customGuiButton(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "CustomGuiEvent.ButtonEvent",
+        "scope": "javascript,typescript"
+    },
+    "CustomGuiEvent.SlotEvent": {
+        "prefix": "customGuiSlot",
+        "body": [
+        "/**",
+        " * @param {CustomGuiEvent.SlotEvent} event",
+        " */",
+        "function customGuiSlot(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "CustomGuiEvent.SlotEvent",
+        "scope": "javascript,typescript"
+    },
+    "CustomGuiEvent.SlotClickEvent": {
+        "prefix": "customGuiSlotClicked",
+        "body": [
+        "/**",
+        " * @param {CustomGuiEvent.SlotClickEvent} event",
+        " */",
+        "function customGuiSlotClicked(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "CustomGuiEvent.SlotClickEvent",
+        "scope": "javascript,typescript"
+    },
+    "CustomGuiEvent.ScrollEvent": {
+        "prefix": "customGuiScroll",
+        "body": [
+        "/**",
+        " * @param {CustomGuiEvent.ScrollEvent} event",
+        " */",
+        "function customGuiScroll(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "CustomGuiEvent.ScrollEvent",
+        "scope": "javascript,typescript"
+    }
+}

@@ -1,0 +1,171 @@
+{
+    "NpcEvent.InitEvent": {
+        "prefix": "init",
+        "body": [
+        "/**",
+        " * @param {NpcEvent.InitEvent} event",
+        " */",
+        "function init(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "NpcEvent.InitEvent",
+        "scope": "javascript,typescript"
+    },
+    "NpcEvent.UpdateEvent": {
+        "prefix": "tick",
+        "body": [
+        "/**",
+        " * @param {NpcEvent.UpdateEvent} event",
+        " */",
+        "function tick(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "NpcEvent.UpdateEvent",
+        "scope": "javascript,typescript"
+    },
+    "NpcEvent.TargetEvent": {
+        "prefix": "target",
+        "body": [
+        "/**",
+        " * @param {NpcEvent.TargetEvent} event",
+        " */",
+        "function target(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "NpcEvent.TargetEvent",
+        "scope": "javascript,typescript"
+    },
+    "NpcEvent.TargetLostEvent": {
+        "prefix": "targetLost",
+        "body": [
+        "/**",
+        " * @param {NpcEvent.TargetLostEvent} event",
+        " */",
+        "function targetLost(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "NpcEvent.TargetLostEvent",
+        "scope": "javascript,typescript"
+    },
+    "NpcEvent.InteractEvent": {
+        "prefix": "interact",
+        "body": [
+        "/**",
+        " * @param {NpcEvent.InteractEvent} event",
+        " */",
+        "function interact(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "NpcEvent.InteractEvent",
+        "scope": "javascript,typescript"
+    },
+    "NpcEvent.DiedEvent": {
+        "prefix": "died",
+        "body": [
+        "/**",
+        " * @param {NpcEvent.DiedEvent} event",
+        " */",
+        "function died(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "NpcEvent.DiedEvent",
+        "scope": "javascript,typescript"
+    },
+    "NpcEvent.KilledEntityEvent": {
+        "prefix": "kill",
+        "body": [
+        "/**",
+        " * @param {NpcEvent.KilledEntityEvent} event",
+        " */",
+        "function kill(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "NpcEvent.KilledEntityEvent",
+        "scope": "javascript,typescript"
+    },
+    "NpcEvent.MeleeAttackEvent": {
+        "prefix": "meleeAttack",
+        "body": [
+        "/**",
+        " * @param {NpcEvent.MeleeAttackEvent} event",
+        " */",
+        "function meleeAttack(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "NpcEvent.MeleeAttackEvent",
+        "scope": "javascript,typescript"
+    },
+    "NpcEvent.RangedLaunchedEvent": {
+        "prefix": "rangedAttack",
+        "body": [
+        "/**",
+        " * @param {NpcEvent.RangedLaunchedEvent} event",
+        " */",
+        "function rangedAttack(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "NpcEvent.RangedLaunchedEvent",
+        "scope": "javascript,typescript"
+    },
+    "NpcEvent.DamagedEvent": {
+        "prefix": "damaged",
+        "body": [
+        "/**",
+        " * @param {NpcEvent.DamagedEvent} event",
+        " */",
+        "function damaged(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "NpcEvent.DamagedEvent",
+        "scope": "javascript,typescript"
+    },
+    "NpcEvent.RangedLaunchCollideEventedEvent": {
+        "prefix": "collide",
+        "body": [
+        "/**",
+        " * @param {NpcEvent.CollideEvent} event",
+        " */",
+        "function collide(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "NpcEvent.CollideEvent",
+        "scope": "javascript,typescript"
+    },
+    "NpcEvent.TimerEvent": {
+        "prefix": "timer",
+        "body": [
+        "/**",
+        " * @param {NpcEvent.TimerEvent} event",
+        " */",
+        "function timer(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "NpcEvent.TimerEvent",
+        "scope": "javascript,typescript"
+    },
+    "RoleEvent.*": {
+        "prefix": "role",
+        "body": [
+        "/**",
+        " * @param {RoleEvent.} event",
+        " */",
+        "function role(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "RoleEvent.*",
+        "scope": "javascript,typescript"
+    }
+}

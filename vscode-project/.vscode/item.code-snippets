@@ -1,0 +1,93 @@
+{
+    "ItemEvent.InitEvent": {
+        "prefix": "init",
+        "body": [
+        "/**",
+        " * @param {ItemEvent.InitEvent} event",
+        " */",
+        "function init(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "ItemEvent.InitEvent",
+        "scope": "javascript,typescript"
+    },
+    "ItemEvent.UpdateEvent": {
+        "prefix": "tick",
+        "body": [
+        "/**",
+        " * @param {ItemEvent.UpdateEvent} event",
+        " */",
+        "function tick(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "ItemEvent.UpdateEvent",
+        "scope": "javascript,typescript"
+    },
+    "ItemEvent.SpawnEvent": {
+        "prefix": "spawn",
+        "body": [
+        "/**",
+        " * @param {ItemEvent.SpawnEvent} event",
+        " */",
+        "function spawn(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "ItemEvent.SpawnEvent",
+        "scope": "javascript,typescript"
+    },
+    "ItemEvent.TossedEvent": {
+        "prefix": "toss",
+        "body": [
+        "/**",
+        " * @param {ItemEvent.TossedEvent} event",
+        " */",
+        "function toss(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "ItemEvent.TossedEvent",
+        "scope": "javascript,typescript"
+    },
+    "ItemEvent.PickedUpEvent": {
+        "prefix": "pickedUp",
+        "body": [
+        "/**",
+        " * @param {ItemEvent.PickedUpEvent} event",
+        " */",
+        "function pickedUp(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "ItemEvent.PickedUpEvent",
+        "scope": "javascript,typescript"
+    },
+    "ItemEvent.InteractEvent": {
+        "prefix": "interact",
+        "body": [
+        "/**",
+        " * @param {ItemEvent.InteractEvent} event",
+        " */",
+        "function interact(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "ItemEvent.InteractEvent",
+        "scope": "javascript,typescript"
+    },
+    "ItemEvent.AttackEvent": {
+        "prefix": "attack",
+        "body": [
+        "/**",
+        " * @param {ItemEvent.AttackEvent} event",
+        " */",
+        "function attack(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "ItemEvent.AttackEvent",
+        "scope": "javascript,typescript"
+    }
+}

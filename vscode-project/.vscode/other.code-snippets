@@ -1,0 +1,119 @@
+{
+    "ProjectileEvent.UpdateEvent": {
+        "prefix": "projectileTick",
+        "body": [
+        "/**",
+        " * @param {ProjectileEvent.UpdateEvent} event",
+        " */",
+        "function projectileTick(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "ProjectileEvent.UpdateEvent",
+        "scope": "javascript,typescript"
+    },
+    "ProjectileEvent.ImpactEvent": {
+        "prefix": "projectileImpact",
+        "body": [
+        "/**",
+        " * @param {ProjectileEvent.ImpactEvent} event",
+        " */",
+        "function projectileImpact(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "ProjectileEvent.ImpactEvent",
+        "scope": "javascript,typescript"
+    },
+    "QuestEvent.QuestStartEvent": {
+        "prefix": "questStart",
+        "body": [
+        "/**",
+        " * @param {QuestEvent.QuestStartEvent} event",
+        " */",
+        "function questStart(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "QuestEvent.QuestStartEvent",
+        "scope": "javascript,typescript"
+    },
+    "QuestEvent.QuestCompletedEvent": {
+        "prefix": "questCompleted",
+        "body": [
+        "/**",
+        " * @param {QuestEvent.QuestCompletedEvent} event",
+        " */",
+        "function questCompleted(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "QuestEvent.QuestCompletedEvent",
+        "scope": "javascript,typescript"
+    },
+    "QuestEvent.QuestTurnedInEvent": {
+        "prefix": "questTurnIn",
+        "body": [
+        "/**",
+        " * @param {QuestEvent.QuestTurnedInEvent} event",
+        " */",
+        "function questTurnIn(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "QuestEvent.QuestTurnedInEvent",
+        "scope": "javascript,typescript"
+    },
+    "DialogEvent.OpenEvent": {
+        "prefix": "dialog",
+        "body": [
+        "/**",
+        " * @param {DialogEvent.OpenEvent} event",
+        " */",
+        "function dialog(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "DialogEvent.OpenEvent",
+        "scope": "javascript,typescript"
+    },
+    "DialogEvent.CloseEvent": {
+        "prefix": "dialogClose",
+        "body": [
+        "/**",
+        " * @param {DialogEvent.CloseEvent} event",
+        " */",
+        "function dialogClose(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "DialogEvent.CloseEvent",
+        "scope": "javascript,typescript"
+    },
+    "HandlerEvent.RecipesLoadedEvent": {
+        "prefix": "dialogOption",
+        "body": [
+        "/**",
+        " * @param {HandlerEvent.RecipesLoadedEvent} event",
+        " */",
+        "function dialogOption(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "HandlerEvent.RecipesLoadedEvent",
+        "scope": "javascript,typescript"
+    },
+    "ForgeEvent.InitEvent": {
+        "prefix": "init",
+        "body": [
+        "/**",
+        " * @param {ForgeEvent.InitEvent} event",
+        " */",
+        "function init(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "ForgeEvent.InitEvent",
+        "scope": "javascript,typescript"
+    }
+}
