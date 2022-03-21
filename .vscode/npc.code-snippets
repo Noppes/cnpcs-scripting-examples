@@ -1,6 +1,6 @@
 {
     "NpcEvent.InitEvent": {
-        "prefix": "init",
+        "prefix": "npc:init",
         "body": [
         "/**",
         " * @param {NpcEvent.InitEvent} event",
@@ -13,7 +13,7 @@
         "scope": "javascript,typescript"
     },
     "NpcEvent.UpdateEvent": {
-        "prefix": "tick",
+        "prefix": "npc:tick",
         "body": [
         "/**",
         " * @param {NpcEvent.UpdateEvent} event",
@@ -26,7 +26,7 @@
         "scope": "javascript,typescript"
     },
     "NpcEvent.TargetEvent": {
-        "prefix": "target",
+        "prefix": "npc:target",
         "body": [
         "/**",
         " * @param {NpcEvent.TargetEvent} event",
@@ -39,7 +39,7 @@
         "scope": "javascript,typescript"
     },
     "NpcEvent.TargetLostEvent": {
-        "prefix": "targetLost",
+        "prefix": "npc:targetLost",
         "body": [
         "/**",
         " * @param {NpcEvent.TargetLostEvent} event",
@@ -52,7 +52,7 @@
         "scope": "javascript,typescript"
     },
     "NpcEvent.InteractEvent": {
-        "prefix": "interact",
+        "prefix": "npc:interact",
         "body": [
         "/**",
         " * @param {NpcEvent.InteractEvent} event",
@@ -65,7 +65,7 @@
         "scope": "javascript,typescript"
     },
     "NpcEvent.DiedEvent": {
-        "prefix": "died",
+        "prefix": "npc:died",
         "body": [
         "/**",
         " * @param {NpcEvent.DiedEvent} event",
@@ -78,7 +78,7 @@
         "scope": "javascript,typescript"
     },
     "NpcEvent.KilledEntityEvent": {
-        "prefix": "kill",
+        "prefix": "npc:kill",
         "body": [
         "/**",
         " * @param {NpcEvent.KilledEntityEvent} event",
@@ -91,7 +91,7 @@
         "scope": "javascript,typescript"
     },
     "NpcEvent.MeleeAttackEvent": {
-        "prefix": "meleeAttack",
+        "prefix": "npc:meleeAttack",
         "body": [
         "/**",
         " * @param {NpcEvent.MeleeAttackEvent} event",
@@ -104,7 +104,7 @@
         "scope": "javascript,typescript"
     },
     "NpcEvent.RangedLaunchedEvent": {
-        "prefix": "rangedAttack",
+        "prefix": "npc:rangedAttack",
         "body": [
         "/**",
         " * @param {NpcEvent.RangedLaunchedEvent} event",
@@ -117,7 +117,7 @@
         "scope": "javascript,typescript"
     },
     "NpcEvent.DamagedEvent": {
-        "prefix": "damaged",
+        "prefix": "npc:damaged",
         "body": [
         "/**",
         " * @param {NpcEvent.DamagedEvent} event",
@@ -130,7 +130,7 @@
         "scope": "javascript,typescript"
     },
     "NpcEvent.RangedLaunchCollideEventedEvent": {
-        "prefix": "collide",
+        "prefix": "npc:collide",
         "body": [
         "/**",
         " * @param {NpcEvent.CollideEvent} event",
@@ -143,7 +143,7 @@
         "scope": "javascript,typescript"
     },
     "NpcEvent.TimerEvent": {
-        "prefix": "timer",
+        "prefix": "npc:timer",
         "body": [
         "/**",
         " * @param {NpcEvent.TimerEvent} event",
@@ -156,10 +156,10 @@
         "scope": "javascript,typescript"
     },
     "RoleEvent.*": {
-        "prefix": "role",
+        "prefix": "npc:role",
         "body": [
         "/**",
-        " * @param {RoleEvent.} event",
+        " * @param {RoleEvent.$1} event",
         " */",
         "function role(event){",
         "    $0",

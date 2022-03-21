@@ -1,6 +1,6 @@
 {
     "CustomGuiEvent.CloseEvent": {
-        "prefix": "customGuiClosed",
+        "prefix": "customGui:closed",
         "body": [
         "/**",
         " * @param {CustomGuiEvent.CloseEvent} event",
@@ -13,7 +13,7 @@
         "scope": "javascript,typescript"
     },
     "CustomGuiEvent.ButtonEvent": {
-        "prefix": "customGuiButton",
+        "prefix": "customGui:button",
         "body": [
         "/**",
         " * @param {CustomGuiEvent.ButtonEvent} event",
@@ -26,7 +26,7 @@
         "scope": "javascript,typescript"
     },
     "CustomGuiEvent.SlotEvent": {
-        "prefix": "customGuiSlot",
+        "prefix": "customGui:slot",
         "body": [
         "/**",
         " * @param {CustomGuiEvent.SlotEvent} event",
@@ -39,7 +39,7 @@
         "scope": "javascript,typescript"
     },
     "CustomGuiEvent.SlotClickEvent": {
-        "prefix": "customGuiSlotClicked",
+        "prefix": "customGui:slotClicked",
         "body": [
         "/**",
         " * @param {CustomGuiEvent.SlotClickEvent} event",
@@ -52,7 +52,7 @@
         "scope": "javascript,typescript"
     },
     "CustomGuiEvent.ScrollEvent": {
-        "prefix": "customGuiScroll",
+        "prefix": "customGui:scroll",
         "body": [
         "/**",
         " * @param {CustomGuiEvent.ScrollEvent} event",

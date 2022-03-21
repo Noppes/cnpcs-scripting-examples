@@ -1,6 +1,6 @@
 {
     "ProjectileEvent.UpdateEvent": {
-        "prefix": "projectileTick",
+        "prefix": "projectile:tick",
         "body": [
         "/**",
         " * @param {ProjectileEvent.UpdateEvent} event",
@@ -13,7 +13,7 @@
         "scope": "javascript,typescript"
     },
     "ProjectileEvent.ImpactEvent": {
-        "prefix": "projectileImpact",
+        "prefix": "projectile:impact",
         "body": [
         "/**",
         " * @param {ProjectileEvent.ImpactEvent} event",
@@ -26,7 +26,7 @@
         "scope": "javascript,typescript"
     },
     "QuestEvent.QuestStartEvent": {
-        "prefix": "questStart",
+        "prefix": "quest:start",
         "body": [
         "/**",
         " * @param {QuestEvent.QuestStartEvent} event",
@@ -39,7 +39,7 @@
         "scope": "javascript,typescript"
     },
     "QuestEvent.QuestCompletedEvent": {
-        "prefix": "questCompleted",
+        "prefix": "quest:completed",
         "body": [
         "/**",
         " * @param {QuestEvent.QuestCompletedEvent} event",
@@ -52,7 +52,7 @@
         "scope": "javascript,typescript"
     },
     "QuestEvent.QuestTurnedInEvent": {
-        "prefix": "questTurnIn",
+        "prefix": "quest:turnIn",
         "body": [
         "/**",
         " * @param {QuestEvent.QuestTurnedInEvent} event",
@@ -65,7 +65,7 @@
         "scope": "javascript,typescript"
     },
     "DialogEvent.OpenEvent": {
-        "prefix": "dialog",
+        "prefix": "dialog:open",
         "body": [
         "/**",
         " * @param {DialogEvent.OpenEvent} event",
@@ -78,7 +78,7 @@
         "scope": "javascript,typescript"
     },
     "DialogEvent.CloseEvent": {
-        "prefix": "dialogClose",
+        "prefix": "dialog:close",
         "body": [
         "/**",
         " * @param {DialogEvent.CloseEvent} event",
@@ -91,7 +91,7 @@
         "scope": "javascript,typescript"
     },
     "HandlerEvent.RecipesLoadedEvent": {
-        "prefix": "dialogOption",
+        "prefix": "dialog:option",
         "body": [
         "/**",
         " * @param {HandlerEvent.RecipesLoadedEvent} event",
@@ -104,7 +104,7 @@
         "scope": "javascript,typescript"
     },
     "ForgeEvent.InitEvent": {
-        "prefix": "init",
+        "prefix": "forge:init",
         "body": [
         "/**",
         " * @param {ForgeEvent.InitEvent} event",

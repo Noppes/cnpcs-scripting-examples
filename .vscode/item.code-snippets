@@ -1,6 +1,6 @@
 {
     "ItemEvent.InitEvent": {
-        "prefix": "init",
+        "prefix": "item:init",
         "body": [
         "/**",
         " * @param {ItemEvent.InitEvent} event",
@@ -13,7 +13,7 @@
         "scope": "javascript,typescript"
     },
     "ItemEvent.UpdateEvent": {
-        "prefix": "tick",
+        "prefix": "item:tick",
         "body": [
         "/**",
         " * @param {ItemEvent.UpdateEvent} event",
@@ -26,7 +26,7 @@
         "scope": "javascript,typescript"
     },
     "ItemEvent.SpawnEvent": {
-        "prefix": "spawn",
+        "prefix": "item:spawn",
         "body": [
         "/**",
         " * @param {ItemEvent.SpawnEvent} event",
@@ -39,7 +39,7 @@
         "scope": "javascript,typescript"
     },
     "ItemEvent.TossedEvent": {
-        "prefix": "toss",
+        "prefix": "item:toss",
         "body": [
         "/**",
         " * @param {ItemEvent.TossedEvent} event",
@@ -52,7 +52,7 @@
         "scope": "javascript,typescript"
     },
     "ItemEvent.PickedUpEvent": {
-        "prefix": "pickedUp",
+        "prefix": "item:pickedUp",
         "body": [
         "/**",
         " * @param {ItemEvent.PickedUpEvent} event",
@@ -65,7 +65,7 @@
         "scope": "javascript,typescript"
     },
     "ItemEvent.InteractEvent": {
-        "prefix": "interact",
+        "prefix": "item:interact",
         "body": [
         "/**",
         " * @param {ItemEvent.InteractEvent} event",
@@ -78,7 +78,7 @@
         "scope": "javascript,typescript"
     },
     "ItemEvent.AttackEvent": {
-        "prefix": "attack",
+        "prefix": "item:attack",
         "body": [
         "/**",
         " * @param {ItemEvent.AttackEvent} event",
