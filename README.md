@@ -1,0 +1,2 @@
+# cnpcs-scripting-examples
+CustomNPCsScripting
