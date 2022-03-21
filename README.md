@@ -1,4 +1,8 @@
 # CNPC Scripting Setup & Examples
+*For Minecraft 1.16.5*
+---
+Minecraft Versions: [**1.16.5**, [1.12.2]()]
+
 ---
 Official repo to get started with CustomNPC Scripting in Visual Studio Code.
 
