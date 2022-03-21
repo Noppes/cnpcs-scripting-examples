@@ -1,10 +1,9 @@
 {
-    "compilerOptions": {
-      "esModuleInterop": true,
-      "strict": true,
-      "strictPropertyInitialization": false,
-      "checkJs": true,
-      "resolveJsonModule": true,
-      "experimentalDecorators": true,
-    }
+  "compilerOptions": {
+    "strict": true,
+    "checkJs": true,
+    "typeRoots": [
+      ".vscode/customnpcs.d.ts"
+    ]
   }
+}
