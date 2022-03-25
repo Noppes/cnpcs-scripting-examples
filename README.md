@@ -8,6 +8,8 @@ Official repo to get started with CustomNPC Scripting in Visual Studio Code.
 
 It contains several example scripts as well as Intellisense(autocompletion) for CustomNPCs.
 
+**NOTE: This repo is still WIP. Snippets and Typings are still in the making.**
+
 ### Table of contents
 1. [Requirements for scripting](#requirements-for-scripting)
    - [Install Visual Studio Code](#install-visual-studio-code)
@@ -28,21 +30,24 @@ It contains several example scripts as well as Intellisense(autocompletion) for 
 ---
 ## Requirements for scripting
 
-###### Install Visual Studio Code
+#### Install Visual Studio Code
 Visual Studio Code is one of many editors to use in scripting/programming. We use it for its ability to make scripting really easy.
 
 Make sure to download VSCode from its [official website](https://code.visualstudio.com/download).
 
-###### Choose a scripting language
+#### Choose a scripting language
 CustomNPCs allows you to choose your own language to script in.
 You only have to download a specific .jar file for your chosen language.
-[Click here for info about](www.kodevelopment.nl/minecraft/customnpcs/scripting)
+[Click here for info about enabling scripting](www.kodevelopment.nl/minecraft/customnpcs/scripting)
 
 This repo contains only javascript examples for now so we assume you downloaded `nashorn.jar`.
 
 If you are running CustomNPCs on a server, then only the server needs `nashorn.jar`.
 
-###### Download this repo
+If you are making a modpack for singleplayer or self-host use you'll need to include `nashorn.jar` in your modpack.
+This can be problematic if you have a CurseForge modpack, but is easily solved because [someone uploaded `nashorn.jar` to CurseForge](https://www.curseforge.com/minecraft/mc-mods/project-nashorn)
+
+#### Download this repo
 Download this repository and open it up in VSCode to get started!
 Create some directories. Organize the example files how you want it.
 
@@ -52,7 +57,7 @@ Do NOT remove `jsconfig.json` and `.vscode` or you'll lose your autocompletion f
 
 ## Getting started
 
-###### Your first script
+#### Your first script
 Decide what type of script you want to make. You can choose from:
  - NPC Script (Scripts that are executed by NPCs)
  - Item Script (Scripts that are executed by scripted items)
@@ -62,7 +67,7 @@ Decide what type of script you want to make. You can choose from:
 
 TODO: add explanation on in-game steps to run scripts
 
-###### Example scripts
+#### Example scripts
 This repo contains some example scripts provided by people from the discord server. Some comments might be added/changed inside example scripts, but are kept as original as possible.
 
 This list is sorted by simplest above.
@@ -74,34 +79,54 @@ This list is sorted by simplest above.
  - `transporters_fee.js` by `Xelerax`
 
 TODO: add more examples
+TODO: test examples
 
 
-###### Handy links
+#### Handy links
 
-TODO: Add handy links, docs, etc
+Summary of all links scattered in this document plus a few more.
+
+***Docs***
+[CustomNPCs 1.16.5 Documentation](http://www.kodevelopment.nl/customnpcs/api/1.16.5/)
+
+***Downloads***
+[VSCode](https://code.visualstudio.com/download)
+
+***Learn JavaScript***
+[W3Schools](https://www.w3schools.com/js/default.asp)
+[Tutorialspoint](https://www.tutorialspoint.com/javascript/index.htm)
+[Eloquentjavascript](https://eloquentjavascript.net/index.html)
+[FreeCodeCamp](https://www.freecodecamp.org/news/javascript-modules-a-beginner-s-guide-783f7d7a5fcc#.zeh1blwi0)
+
+***Other***
+[Nashorn on CurseForge](https://www.curseforge.com/minecraft/mc-mods/project-nashorn)
 
 ---
 
 ## The good stuff
 This repo contains some extra handy files to enhance your scripting experience.
-###### Snippets
+#### Snippets
 
 TODO: Add explanation on snippets, what to type, etc
 
-###### Intellisense (autocomplete)
+#### Intellisense (autocomplete)
 
 TODO: Add explanation on autocomplete, how it works, etc
 
 ---
 ## FAQ
 
-###### Intellisense/autocomplete is not working anymore 
-Make sure your `jsconfig.json` and `.vscode` still exists within the root of your opened VSCode.
+#### Intellisense/autocomplete is not working anymore 
+Make sure your `jsconfig.json` and `.vscode` still exists within the root of your opened VSCode project.
 
-###### What is all the @param stuff?
+#### What is all the @param stuff?
 This is required for VSCode to know what we are programming. It tells VSCode stuff about the code.
 
 ---
 
 ## Join the Discord!
-[Join the discord](https://discord.gg/AJ7qPy4) to discuss scriptings or to share your creations!
+Need some scripting help or want to share your creation? Go ahead and join our official CNPC Scripting discord server.
+
+For non-scripting related questions, join the official CustomNPC Discord
+
+[![Discord Server for Scripting](https://discordapp.com/api/guilds/177204059109982208/widget.png?style=banner3)](https://discord.gg/AJ7qPy4) [![Discord Server for Scripting](https://discordapp.com/api/guilds/151785576557707264/widget.png?style=banner3)](https://discord.gg/AJ7qPy4)
