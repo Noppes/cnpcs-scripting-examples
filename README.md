@@ -8,7 +8,7 @@ Official repo to get started with CustomNPC Scripting in Visual Studio Code.
 
 It contains several example scripts as well as Intellisense(autocompletion) for CustomNPCs.
 
-**NOTE: This repo is still WIP. Snippets and Typings are still in the making**
+**NOTE: This repo is still WIP. Snippets and Typings are still in the making.**
 
 ### Table of contents
 1. [Requirements for scripting](#requirements-for-scripting)
