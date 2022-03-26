@@ -1,5 +1,5 @@
 {
-    "BlockEvent.InitEvent": {
+    "Scripted block init": {
         "prefix": "block:init",
         "body": [
         "/**",
@@ -9,10 +9,10 @@
         "    $0",
         "}"
         ],
-        "description": "BlockEvent.InitEvent",
+        "description": "Generate code for scripted block init event",
         "scope": "javascript,typescript"
     },
-    "BlockEvent.EntityFallenUponEvent": {
+    "Scripted block entityFallenUpon": {
         "prefix": "block:fallenUpon",
         "body": [
         "/**",
@@ -22,10 +22,10 @@
         "    $0",
         "}"
         ],
-        "description": "BlockEvent.EntityFallenUponEvent",
+        "description": "Generate code for scripted block entityFallenUpon event",
         "scope": "javascript,typescript"
     },
-    "BlockEvent.InteractEvent": {
+    "Scripted block interact": {
         "prefix": "block:interact",
         "body": [
         "/**",
@@ -35,10 +35,10 @@
         "    $0",
         "}"
         ],
-        "description": "BlockEvent.InteractEvent",
+        "description": "Generate code for scripted block interact event",
         "scope": "javascript,typescript"
     },
-    "BlockEvent.RedstoneEvent": {
+    "Scripted block redstone": {
         "prefix": "block:redstone",
         "body": [
         "/**",
@@ -48,10 +48,10 @@
         "    $0",
         "}"
         ],
-        "description": "BlockEvent.RedstoneEvent",
+        "description": "Generate code for scripted block redstone event",
         "scope": "javascript,typescript"
     },
-    "BlockEvent.DoorToggleEvent": {
+    "Scripted block doortoggle": {
         "prefix": "block:doorToggle",
         "body": [
         "/**",
@@ -61,10 +61,10 @@
         "    $0",
         "}"
         ],
-        "description": "BlockEvent.DoorToggleEvent",
+        "description": "Generate code for scripted block doorToggle event",
         "scope": "javascript,typescript"
     },
-    "BlockEvent.BreakEvent": {
+    "Scripted block break": {
         "prefix": "block:broken",
         "body": [
         "/**",
@@ -74,10 +74,10 @@
         "    $0",
         "}"
         ],
-        "description": "BlockEvent.BreakEvent",
+        "description": "Generate code for scripted block break event",
         "scope": "javascript,typescript"
     },
-    "BlockEvent.ExplodedEvent": {
+    "Scripted block exploded": {
         "prefix": "block:exploded",
         "body": [
         "/**",
@@ -87,10 +87,10 @@
         "    $0",
         "}"
         ],
-        "description": "BlockEvent.ExplodedEvent",
+        "description": "Generate code for scripted block exploded event",
         "scope": "javascript,typescript"
     },
-    "BlockEvent.RainFillEvent": {
+    "Scripted block rainfill": {
         "prefix": "block:rainFilled",
         "body": [
         "/**",
@@ -100,10 +100,10 @@
         "    $0",
         "}"
         ],
-        "description": "BlockEvent.RainFillEvent",
+        "description": "Generate code for scripted block rainFill event",
         "scope": "javascript,typescript"
     },
-    "BlockEvent.NeighborChangedEvent": {
+    "Scripted block neighborchanged": {
         "prefix": "block:neighborChanged",
         "body": [
         "/**",
@@ -113,10 +113,10 @@
         "    $0",
         "}"
         ],
-        "description": "BlockEvent.NeighborChangedEvent",
+        "description": "Generate code for scripted block neighborChanged event",
         "scope": "javascript,typescript"
     },
-    "BlockEvent.UpdateEvent": {
+    "Scripted block update": {
         "prefix": "block:tick",
         "body": [
         "/**",
@@ -126,10 +126,10 @@
         "    $0",
         "}"
         ],
-        "description": "BlockEvent.UpdateEvent",
+        "description": "Generate code for scripted block update event",
         "scope": "javascript,typescript"
     },
-    "BlockEvent.ClickedEvent": {
+    "Scripted block clicked": {
         "prefix": "block:clicked",
         "body": [
         "/**",
@@ -139,10 +139,10 @@
         "    $0",
         "}"
         ],
-        "description": "BlockEvent.ClickedEvent",
+        "description": "Generate code for scripted block clicked event",
         "scope": "javascript,typescript"
     },
-    "BlockEvent.HarvestedEvent": {
+    "Scripted block harvested": {
         "prefix": "block:harvested",
         "body": [
         "/**",
@@ -152,10 +152,10 @@
         "    $0",
         "}"
         ],
-        "description": "BlockEvent.HarvestedEvent",
+        "description": "Generate code for scripted block harvested event",
         "scope": "javascript,typescript"
     },
-    "BlockEvent.CollidedEvent": {
+    "Scripted block collided": {
         "prefix": "block:collide",
         "body": [
         "/**",
@@ -165,10 +165,10 @@
         "    $0",
         "}"
         ],
-        "description": "BlockEvent.CollidedEvent",
+        "description": "Generate code for scripted block collided event",
         "scope": "javascript,typescript"
     },
-    "BlockEvent.TimerEvent": {
+    "Scripted block timer": {
         "prefix": "block:timer",
         "body": [
         "/**",
@@ -178,7 +178,7 @@
         "    $0",
         "}"
         ],
-        "description": "BlockEvent.TimerEvent",
+        "description": "Generate code for scripted block timer event",
         "scope": "javascript,typescript"
     }
 }

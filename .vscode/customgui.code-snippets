@@ -1,5 +1,5 @@
 {
-    "CustomGuiEvent.CloseEvent": {
+    "CustomGui close": {
         "prefix": "customGui:closed",
         "body": [
         "/**",
@@ -9,10 +9,10 @@
         "    $0",
         "}"
         ],
-        "description": "CustomGuiEvent.CloseEvent",
+        "description": "Generate code for CustomGui CloseEvent",
         "scope": "javascript,typescript"
     },
-    "CustomGuiEvent.ButtonEvent": {
+    "CustomGui button": {
         "prefix": "customGui:button",
         "body": [
         "/**",
@@ -22,10 +22,10 @@
         "    $0",
         "}"
         ],
-        "description": "CustomGuiEvent.ButtonEvent",
+        "description": "Generate code for CustomGui ButtonEvent",
         "scope": "javascript,typescript"
     },
-    "CustomGuiEvent.SlotEvent": {
+    "CustomGui slot": {
         "prefix": "customGui:slot",
         "body": [
         "/**",
@@ -35,10 +35,10 @@
         "    $0",
         "}"
         ],
-        "description": "CustomGuiEvent.SlotEvent",
+        "description": "Generate code for CustomGui SlotEvent",
         "scope": "javascript,typescript"
     },
-    "CustomGuiEvent.SlotClickEvent": {
+    "CustomGui slotClick": {
         "prefix": "customGui:slotClicked",
         "body": [
         "/**",
@@ -48,10 +48,10 @@
         "    $0",
         "}"
         ],
-        "description": "CustomGuiEvent.SlotClickEvent",
+        "description": "Generate code for CustomGui SlotClickEvent",
         "scope": "javascript,typescript"
     },
-    "CustomGuiEvent.ScrollEvent": {
+    "CustomGui scroll": {
         "prefix": "customGui:scroll",
         "body": [
         "/**",
@@ -61,7 +61,7 @@
         "    $0",
         "}"
         ],
-        "description": "CustomGuiEvent.ScrollEvent",
+        "description": "Generate code for CustomGui ScrollEvent",
         "scope": "javascript,typescript"
     }
 }

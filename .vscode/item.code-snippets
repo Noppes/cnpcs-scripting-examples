@@ -1,5 +1,5 @@
 {
-    "ItemEvent.InitEvent": {
+    "Scripted item init": {
         "prefix": "item:init",
         "body": [
         "/**",
@@ -9,23 +9,24 @@
         "    $0",
         "}"
         ],
-        "description": "ItemEvent.InitEvent",
+        "description": "Generate code for scripted item init event.",
         "scope": "javascript,typescript"
     },
-    "ItemEvent.UpdateEvent": {
+    "Scripted item update": {
         "prefix": "item:tick",
         "body": [
         "/**",
+        " * When the item is in an inventory this will be called every 10 ticks (0.5 seconds)",
         " * @param {ItemEvent.UpdateEvent} event",
         " */",
         "function tick(event){",
         "    $0",
         "}"
         ],
-        "description": "ItemEvent.UpdateEvent",
+        "description": "Generate code for scripted item update event.",
         "scope": "javascript,typescript"
     },
-    "ItemEvent.SpawnEvent": {
+    "Scripted item spawn": {
         "prefix": "item:spawn",
         "body": [
         "/**",
@@ -35,59 +36,63 @@
         "    $0",
         "}"
         ],
-        "description": "ItemEvent.SpawnEvent",
+        "description": "Generate code for scripted item spawn event.",
         "scope": "javascript,typescript"
     },
-    "ItemEvent.TossedEvent": {
+    "Scripted item tossed": {
         "prefix": "item:toss",
         "body": [
         "/**",
+        " * When Canceled it prevents the item from spawning in the world, the item still disappears from the inventory",
         " * @param {ItemEvent.TossedEvent} event",
         " */",
         "function toss(event){",
         "    $0",
         "}"
         ],
-        "description": "ItemEvent.TossedEvent",
+        "description": "Generate code for scripted item tossed event.",
         "scope": "javascript,typescript"
     },
-    "ItemEvent.PickedUpEvent": {
+    "Scripted item pickedUp": {
         "prefix": "item:pickedUp",
         "body": [
         "/**",
+        " * When Canceled it prevents the item from spawning in the world, the item still disappears from the inventory",
         " * @param {ItemEvent.PickedUpEvent} event",
         " */",
         "function pickedUp(event){",
         "    $0",
         "}"
         ],
-        "description": "ItemEvent.PickedUpEvent",
+        "description": "Generate code for scripted item pickedUp event.",
         "scope": "javascript,typescript"
     },
-    "ItemEvent.InteractEvent": {
+    "Scripted item interact": {
         "prefix": "item:interact",
         "body": [
         "/**",
+        " * Called when you right click into the air, a block or an entity",
         " * @param {ItemEvent.InteractEvent} event",
         " */",
         "function interact(event){",
         "    $0",
         "}"
         ],
-        "description": "ItemEvent.InteractEvent",
+        "description": "Generate code for scripted item interact event.",
         "scope": "javascript,typescript"
     },
-    "ItemEvent.AttackEvent": {
+    "Scripted item attack": {
         "prefix": "item:attack",
         "body": [
         "/**",
+        " * Called when you left click into the air, a block or an entity",
         " * @param {ItemEvent.AttackEvent} event",
         " */",
         "function attack(event){",
         "    $0",
         "}"
         ],
-        "description": "ItemEvent.AttackEvent",
+        "description": "Generate code for scripted item attack event.",
         "scope": "javascript,typescript"
     }
 }
