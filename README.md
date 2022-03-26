@@ -86,13 +86,13 @@ TODO: test examples
 
 Summary of all links scattered in this document plus a few more.
 
-***Docs***
+***Docs***    
 [CustomNPCs 1.16.5 Documentation](http://www.kodevelopment.nl/customnpcs/api/1.16.5/)
 
-***Downloads***
+***Downloads***    
 [VSCode](https://code.visualstudio.com/download)
 
-***Learn CustomNPCs & JavaScript***
+***Learn CustomNPCs & JavaScript***    
 [W3Schools](https://www.w3schools.com/js/default.asp)
 [Tutorialspoint](https://www.tutorialspoint.com/javascript/index.htm)
 [Eloquentjavascript](https://eloquentjavascript.net/index.html)
@@ -100,7 +100,7 @@ Summary of all links scattered in this document plus a few more.
 [Daot's YouTube channel](https://www.youtube.com/user/MrToady2000)
 [Yellow768's CNPC playlist](https://www.youtube.com/watch?v=G1TU21NGQ0I&list=PL7ysKllrqw-61vQKAAGxlTxsMA62P0jKP)
 
-***Other***
+***Other***    
 [Nashorn on CurseForge](https://www.curseforge.com/minecraft/mc-mods/project-nashorn)
 
 ---
