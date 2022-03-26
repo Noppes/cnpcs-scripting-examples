@@ -30,12 +30,12 @@ It contains several example scripts as well as Intellisense(autocompletion) for 
 ---
 ## Requirements for scripting
 
-#### Install Visual Studio Code
+#### 1. Install Visual Studio Code
 Visual Studio Code is one of many editors to use in scripting/programming. We use it for its ability to make scripting really easy.
 
 Make sure to download VSCode from its [official website](https://code.visualstudio.com/download).
 
-#### Choose a scripting language
+#### 2. Choose a scripting language
 CustomNPCs allows you to choose your own language to script in.
 You only have to download a specific .jar file for your chosen language.
 [Click here for info about enabling scripting](www.kodevelopment.nl/minecraft/customnpcs/scripting)
@@ -47,7 +47,7 @@ If you are running CustomNPCs on a server, then only the server needs `nashorn.j
 If you are making a modpack for singleplayer or self-host use you'll need to include `nashorn.jar` in your modpack.
 This can be problematic if you have a CurseForge modpack, but is easily solved because [someone uploaded `nashorn.jar` to CurseForge](https://www.curseforge.com/minecraft/mc-mods/project-nashorn)
 
-#### Download this repo
+#### 3. Download this repo
 Download this repository and open it up in VSCode to get started!
 Create some directories. Organize the example files how you want it.
 
