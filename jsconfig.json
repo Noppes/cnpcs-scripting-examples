@@ -3,7 +3,7 @@
     "strict": true,
     "checkJs": true,
     "typeRoots": [
-      ".vscode/customnpcs.d.ts"
-    ]
+      "@types/customnpcs.d.ts"
+    ],
   }
 }
