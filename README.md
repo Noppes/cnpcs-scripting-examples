@@ -104,7 +104,7 @@ Summary of all links scattered in this document plus a few more.
 [Nashorn on CurseForge](https://www.curseforge.com/minecraft/mc-mods/project-nashorn)
 
 ***For your modpack***    
-[Copy-Paste](https://www.curseforge.com/minecraft/mc-mods/copy-paste) *(This copies files to every world and keeps it updated, handy to keep scripts updated for your singleplayer based modpacks!)*
+[Copy-Paste mod](https://www.curseforge.com/minecraft/mc-mods/copy-paste) *(This copies files to every world and keeps it updated, handy to keep scripts updated for your singleplayer based modpacks!)*
 
 ---
 
