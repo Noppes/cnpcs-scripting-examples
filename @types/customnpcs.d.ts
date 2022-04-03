@@ -1311,25 +1311,41 @@ declare class IRoleTransporter extends INPCRole {
 	getLocation(): IRoleTransporter.ITransportLocation;
 }
 
-declare class BlockEvent {
+declare class BlockEvent extends CustomNPCsEvent {
 	block: IBlock;
 }
 
-declare class CustomContainerEvent {
+declare class CustomContainerEvent extends CustomNPCsEvent {
 	container: IContainer;
 	player: IPlayer;
 }
 
-declare class CustomGuiEvent {
+declare class CustomGuiEvent extends CustomNPCsEvent {
 	player: IPlayer;
 	gui: ICustomGui;
 }
 
-declare class CustomNPCsEvent {
-	API;
+declare class MinecraftForgeEvent {
+	/**
+	 * Set if the event should not execute
+	 * Throws and error is the event is not cancelable
+	 * @param canceled
+	 */
+	setCanceled(canceled: Boolean): void;
+	/**
+	 * Checks if the event can be canceled
+	 */
+	isCancelable(): Boolean;
+	/**
+	 * Checks if the event has been canceled
+	 */
+	isCanceled(): Boolean;
+}
+declare class CustomNPCsEvent extends MinecraftForgeEvent {
+	API: NpcAPI;
 }
 
-declare class DialogEvent {
+declare class DialogEvent extends CustomNPCsEvent {
 	dialog: IDialog;
 	player: IPlayer;
 }
@@ -1338,36 +1354,36 @@ declare class ForgeEvent {
 	event: Event;
 }
 
-declare class HandlerEvent {
+declare class HandlerEvent extends CustomNPCsEvent {
 }
 
-declare class ItemEvent {
+declare class ItemEvent extends CustomNPCsEvent {
 	item: IItemScripted;
 }
 
-declare class NpcEvent {
+declare class NpcEvent extends CustomNPCsEvent {
 	npc: ICustomNpc;
 }
 
-declare class PlayerEvent {
+declare class PlayerEvent extends CustomNPCsEvent {
 	player: IPlayer;
 }
 
-declare class ProjectileEvent {
+declare class ProjectileEvent extends CustomNPCsEvent {
 	projectile: IProjectile;
 }
 
-declare class QuestEvent {
+declare class QuestEvent extends CustomNPCsEvent {
 	quest: IQuest;
 	player: IPlayer;
 }
 
-declare class RoleEvent {
+declare class RoleEvent extends CustomNPCsEvent {
 	npc: ICustomNpc;
 	player: IPlayer;
 }
 
-declare class WorldEvent {
+declare class WorldEvent extends CustomNPCsEvent {
 	world: IWorld;
 }
 

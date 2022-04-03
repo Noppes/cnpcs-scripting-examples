@@ -155,6 +155,123 @@
         "description": "NpcEvent.TimerEvent",
         "scope": "javascript,typescript"
     },
+    "RoleEvent.BankUnlockedEvent": {
+        "prefix": "npc:role:bankUnlocked",
+        "body": [
+        "/**",
+        " * @param {RoleEvent.BankUnlockedEvent} event",
+        " */",
+        "function role(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "RoleEvent.BankUnlockedEvent",
+        "scope": "javascript,typescript"
+    },
+    "RoleEvent.BankUpgradedEvent": {
+        "prefix": "npc:role:bankUpgraded",
+        "body": [
+        "/**",
+        " * @param {RoleEvent.BankUpgradedEvent} event",
+        " */",
+        "function role(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "RoleEvent.BankUpgradedEvent",
+        "scope": "javascript,typescript"
+    },
+    "RoleEvent.FollowerFinishedEvent": {
+        "prefix": "npc:role:followerFinished",
+        "body": [
+        "/**",
+        " * @param {RoleEvent.FollowerFinishedEvent} event",
+        " */",
+        "function role(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "RoleEvent.FollowerFinishedEvent",
+        "scope": "javascript,typescript"
+    },
+    "RoleEvent.FollowerHireEvent": {
+        "prefix": "npc:role:followerHire",
+        "body": [
+        "/**",
+        " * @param {RoleEvent.FollowerHireEvent} event",
+        " */",
+        "function role(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "RoleEvent.FollowerHireEvent",
+        "scope": "javascript,typescript"
+    },
+    "RoleEvent.MailmanEvent": {
+        "prefix": "npc:role:mailman",
+        "body": [
+        "/**",
+        " * @param {RoleEvent.MailmanEvent} event",
+        " */",
+        "function role(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "RoleEvent.MailmanEvent",
+        "scope": "javascript,typescript"
+    },
+    "RoleEvent.TradeFailedEvent": {
+        "prefix": "npc:role:tradeFailed",
+        "body": [
+        "/**",
+        " * @param {RoleEvent.TradeFailedEvent} event",
+        " */",
+        "function role(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "RoleEvent.TradeFailedEvent",
+        "scope": "javascript,typescript"
+    },
+    "RoleEvent.TraderEvent": {
+        "prefix": "npc:role:trader",
+        "body": [
+        "/**",
+        " * @param {RoleEvent.TraderEvent} event",
+        " */",
+        "function role(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "RoleEvent.TraderEvent",
+        "scope": "javascript,typescript"
+    },
+    "RoleEvent.TransporterUnlockedEvent": {
+        "prefix": "npc:role:transporterUnlocked",
+        "body": [
+        "/**",
+        " * @param {RoleEvent.TransporterUnlockedEvent} event",
+        " */",
+        "function role(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "RoleEvent.TransporterUnlockedEvent",
+        "scope": "javascript,typescript"
+    },
+    "RoleEvent.TransporterUseEvent": {
+        "prefix": "npc:role:transporterUse",
+        "body": [
+        "/**",
+        " * @param {RoleEvent.TransporterUseEvent} event",
+        " */",
+        "function role(event){",
+        "    $0",
+        "}"
+        ],
+        "description": "RoleEvent.TransporterUseEvent",
+        "scope": "javascript,typescript"
+    },
     "RoleEvent.*": {
         "prefix": "npc:role",
         "body": [

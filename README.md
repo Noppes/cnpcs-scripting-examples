@@ -123,7 +123,6 @@ TODO: Add explanation on autocomplete, how it works, etc
 
 #### Intellisense/autocomplete is not working anymore 
 Make sure your `jsconfig.json` and `.vscode` still exists within the root of your opened VSCode project.
-
 #### What is all the @param stuff?
 This is required for VSCode to know what we are programming. It tells VSCode stuff about the code.
 
